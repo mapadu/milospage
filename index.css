@@ -62,16 +62,15 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding: 20px 25px;
+    padding: 25px 25px;
 }
 
 nav a:hover {
     text-decoration: underline;
+    text-underline-offset: 6px;
 }
 
 /* Footer Section */
-
-/* NEM JÓ MÉG ÍGY, NEM MARAD AZ OLDAL ALJÁN!!! */
 
 footer {
     position: relative;
@@ -81,7 +80,7 @@ footer {
     background-color: #F2F2F2;
     display: flex;
     align-items: center;
-    font-size: 10px;
+    font-size: 18px;
     padding-left: 15px;
 }
 
@@ -129,6 +128,11 @@ img {
     width: auto;
     height: 500px;
 }
+
+/* Media queries */
+
+
+
 
 
 
